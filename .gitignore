@@ -1,0 +1,46 @@
+/node_modules
+/npm-debug.log
+/yarn-error.log
+/vite
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+/.vscode
+/.idea
+/.phpunit.result.cache
+/.env
+/.env.*.local
+/.cache
+/database/*.sqlite
+/database/*.sqlite3
+/storage/app/public
+/storage/framework
+/storage/logs
+/bootstrap/cache
+
+# Ignore compiled assets
+/public/mix-manifest.json
+/public/build
+/public/hot
+
+# Ignore IDE-specific files
+*.sublime-project
+*.sublime-workspace
+*.phpstorm.meta.php
+
+# Ignore environment-specific files
+.env
+.env.*
+.env.local
+.env.testing
+.env.production
+.env.backup
+.DS_Store
+Thumbs.db
+
+# Ignore composer lock file if you're using CI/CD workflows
+/composer.lock
+
+# Ignore Laravel Telescope logs
+/storage/telescope
