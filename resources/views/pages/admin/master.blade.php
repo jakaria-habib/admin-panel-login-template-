@@ -122,59 +122,52 @@
                 <!-- Left Menu Start -->
                 <ul class="metismenu list-unstyled" id="side-menu">
                     <li>
-                        <a href="javascript: void(0);" class="waves-effect">
+                        <a href="{{ route('dashboard') }}" class="waves-effect">
                             <i class="bx bx-home-circle"></i><span class="badge badge-pill badge-info float-right"></span>
-                            <span>Dashboards</span>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript: void(0);" class="has-arrow waves-effect">
+                            <i class="bx bx-user-circle"></i>
+                            <span>Client</span>
                         </a>
                         <ul class="sub-menu" aria-expanded="false">
-                            <li><a href="index.html">Default</a></li>
-                            <li><a href="dashboard-saas.html">Saas</a></li>
-                            <li><a href="dashboard-crypto.html">Crypto</a></li>
+                            <li><a href="#">Add Client</a></li>
+                            <li><a href="{{ route('user.list') }}">Client List</a></li>
                         </ul>
                     </li>
 
                     <li>
                         <a href="javascript: void(0);" class="has-arrow waves-effect">
                             <i class="bx bx-layout"></i>
-                            <span>Layouts</span>
+                            <span>Property</span>
                         </a>
                         <ul class="sub-menu" aria-expanded="false">
-                            <li><a href="layouts-horizontal.html">Horizontal</a></li>
-                            <li><a href="layouts-light-sidebar.html">Light Sidebar</a></li>
+                            <li><a href="#">Add Property</a></li>
+                            <li><a href="#">Property List</a></li>
                         </ul>
                     </li>
-                    <li>
-                        <a href="calendar.html" class=" waves-effect">
-                            <i class="bx bx-calendar"></i>
-                            <span>Calendar</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="chat.html" class=" waves-effect">
-                            <i class="bx bx-chat"></i>
-                            <span class="badge badge-pill badge-success float-right">New</span>
-                            <span>Chat</span>
-                        </a>
-                    </li>
+
                     <li>
                         <a href="javascript: void(0);" class="has-arrow waves-effect">
                             <i class="bx bx-store"></i>
-                            <span>Ecommerce</span>
+                            <span>Expense</span>
                         </a>
                         <ul class="sub-menu" aria-expanded="false">
-                            <li><a href="ecommerce-products.html">Products</a></li>
-                            <li><a href="ecommerce-product-detail.html">Product Detail</a></li>
-                            <li><a href="ecommerce-orders.html">Orders</a></li>
+                            <li><a href="ecommerce-products.html">Add Expense</a></li>
+                            <li><a href="ecommerce-product-detail.html">Expense List</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="javascript: void(0);" class="has-arrow waves-effect">
-                            <i class="bx bx-envelope"></i>
-                            <span>Email</span>
+                            <i class="bx bx-receipt"></i>
+                            <span>Income</span>
                         </a>
                         <ul class="sub-menu" aria-expanded="false">
-                            <li><a href="email-inbox.html">Inbox</a></li>
-                            <li><a href="email-read.html">Read Email</a></li>
+                            <li><a href="invoices-list.html">Add Income</a></li>
+                            <li><a href="invoices-detail.html">Income List</a></li>
                         </ul>
                     </li>
                     <li>
@@ -185,46 +178,6 @@
                         <ul class="sub-menu" aria-expanded="false">
                             <li><a href="invoices-list.html">Invoice List</a></li>
                             <li><a href="invoices-detail.html">Invoice Detail</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="javascript: void(0);" class="has-arrow waves-effect">
-                            <i class="bx bx-briefcase-alt-2"></i>
-                            <span>Projects</span>
-                        </a>
-                        <ul class="sub-menu" aria-expanded="false">
-                            <li><a href="projects-grid.html">Projects Grid</a></li>
-                            <li><a href="projects-list.html">Projects List</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="javascript: void(0);" class="has-arrow waves-effect">
-                            <i class="bx bx-task"></i>
-                            <span>Tasks</span>
-                        </a>
-                        <ul class="sub-menu" aria-expanded="false">
-                            <li><a href="tasks-list.html">Task List</a></li>
-                            <li><a href="tasks-kanban.html">Kanban Board</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="javascript: void(0);" class="has-arrow waves-effect">
-                            <i class="bx bxs-user-detail"></i>
-                            <span>Contacts</span>
-                        </a>
-                        <ul class="sub-menu" aria-expanded="false">
-                            <li><a href="contacts-grid.html">User Grid</a></li>
-                            <li><a href="contacts-list.html">User List</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="javascript: void(0);" class="has-arrow waves-effect">
-                            <i class="bx bx-user-circle"></i>
-                            <span>Authentication</span>
-                        </a>
-                        <ul class="sub-menu" aria-expanded="false">
-                            <li><a href="auth-login.html">Login</a></li>
-                            <li><a href="auth-register.html">Register</a></li>
                         </ul>
                     </li>
 
@@ -383,12 +336,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-6">
-                        <script>document.write(new Date().getFullYear())</script> © Jakaria
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="text-sm-right d-none d-sm-block">
-                            Design & Developed by Jakaria
-                        </div>
+                        <script>document.write(new Date().getFullYear())</script> © Turnkey
                     </div>
                 </div>
             </div>
