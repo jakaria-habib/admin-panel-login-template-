@@ -124,7 +124,7 @@
                     <li>
                         <a href="{{ route('dashboard') }}" class="waves-effect">
                             <i class="bx bx-home-circle"></i><span class="badge badge-pill badge-info float-right"></span>
-                            <span>Dashboard</span>
+                            <span>Dashboards</span>
                         </a>
                     </li>
 
